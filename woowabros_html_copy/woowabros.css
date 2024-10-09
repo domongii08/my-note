@@ -1,5 +1,25 @@
-/* 뒤로가기 아이콘 스타일 */
+/* 헤더 기본 스타일 */
+#header {
+    margin: 10px 10px 10px 10px;
+}
+
+/* 아이콘 공통 스타일 */
 #icons {
     font-size: 32px;
 
 }
+
+/* 오른쪽 헤더 정렬 스타일 */
+#right-header-align {
+    display: flex;
+}
+
+/* 검색 아이콘 스타일 */
+#search-icon {
+    margin-right: 10px;
+}
+
+/* 카트 아이콘 스타일 */
+#cart-icon {
+    margin-left: 10px;
+} 
