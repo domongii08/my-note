@@ -35,12 +35,16 @@
     margin-left: 10px;
 } 
 
-/* 가게 이름 에이리어 스타일 */
+/* 가게 요약 섹션 스타일 */
+#summary-area {
+    margin-top: 50px;
+}
+
+/* 가게 이름 에어리어 스타일 */
 #store-name-area {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
 }
 
 /* 가게 이름 텍스트 스타일 */
@@ -48,7 +52,7 @@
     font-size: 30px;
 }
 
-/* 가게 별점 에이리어 스타일 */
+/* 가게 별점 에어리어 스타일 */
 #star-rate-area {
     display: flex;
     justify-content: center;
@@ -56,7 +60,7 @@
     margin-top: 20px;
 }
 
-/* 별 아이콘 에이리어 스타일 */
+/* 별 아이콘 에어리어 스타일 */
 #star-area {
     margin-right: 10px;
 }
@@ -71,7 +75,7 @@
     font-size: 25px;
 }
 
-/* 리뷰 수 에이리어 스타일 */
+/* 리뷰 수 에어리어 스타일 */
 #review-stats-area {
     display: flex;
     justify-content: center;
@@ -92,3 +96,44 @@
     font-size: 20px;
     color: grey;
 }
+
+/* 빠른 실행창 에어리어 스타일 */
+#quick-action-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+/* 빠른 실행창 분리선 스타일 */
+#action-border {
+    font-size: 26px;
+    margin: 0px 30px;
+    color: #eeeeee;
+}
+
+/* 빠른 실행 버튼 에어리어 스타일 */
+#action-button-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 빠른 실행 버튼 아이콘 스타일 */
+#action-icon {
+    font-size: 21px;
+    margin: 0px 7px 0px 0px;
+}
+
+/* 빠른 실행 '함께주문' 아이콘 색깔 스타일 */
+#together-icon {
+    color: #4f4ffa;
+    display: flex;
+    align-items: center;
+}
+
+/* 빠른 실행 버튼 텍스트 스타일 */
+#action-text {
+    font-size: 17px;
+}
+
