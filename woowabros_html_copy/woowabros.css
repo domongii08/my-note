@@ -16,7 +16,7 @@
 }
 
 /*  헤더 아이콘 공통 스타일 */
-#header-icons {
+.header-icons {
     font-size: 32px;
 }
 
@@ -84,7 +84,7 @@
 }
 
 /* 리뷰통계 텍스트 스타일 */
-#stats-text {
+.stats-text {
     text-align: center;
     font-size: 17px;
     color: grey;
@@ -106,21 +106,21 @@
 }
 
 /* 빠른 실행창 분리선 스타일 */
-#action-border {
+.action-border {
     font-size: 26px;
     margin: 0px 30px;
     color: #eeeeee;
 }
 
 /* 빠른 실행 버튼 에어리어 스타일 */
-#action-button-area {
+.action-button-area {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /* 빠른 실행 버튼 아이콘 스타일 */
-#action-icon {
+.action-icon {
     font-size: 21px;
     margin: 0px 7px 0px 0px;
 }
@@ -133,7 +133,90 @@
 }
 
 /* 빠른 실행 버튼 텍스트 스타일 */
-#action-text {
+.action-text {
     font-size: 17px;
 }
 
+/* 열람할 주문 정보 선택 에어리어 스타일 */
+#order-select-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/* 주문 종류 선택 텍스트 스타일 */
+.order-select-text {
+    text-align: center;
+    font-size: 19px;
+    margin: 0px 80px;
+}
+
+/* '배달주문' 텍스트 스타일 */
+#delivery-order-text {
+    font-weight: bold;
+}
+
+/* 선택된 주문 하이라이트 스타일 */
+#selected-order-highlight {
+    margin: 5px 0px 0px 0px;
+    border: 2px solid black;
+}
+
+/* 선택 안 된 주문 하이라이트 스타일 - 히든 */
+#other-order-highlight {
+    margin: 5px 0px 0px 0px;
+    border: 2px solid white;
+}
+
+/* 주문 방식 선택 - 주문 정보 간 경계선 스타일 */
+#order-division-highlight {
+    margin: 0px 0px 0px 0px;
+    border: 1px solid #eeeeee;
+}
+
+/* 주문 정보 에어리어 스타일 */
+#order-info-area {
+    display: flex;
+    margin: 30px 0px 30px 20px;
+}
+
+/* 주문 정보 레이블 에어리어 스타일 */
+#order-info-label-area {
+    margin-right: 40px;
+}
+
+/* 주문 정보 텍스트 스타일 */
+.order-info-text {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* 요소가 표함된 주문 정보 컨테이너 스타일 */
+.order-info-container {
+    display: flex;
+    align-items: center;
+}
+
+/* 주문 정보 아이콘 스타일 */
+#order-info-icon {
+    margin-left: 3px;
+    font-size: 18px;
+    color: #9e9e9e;
+}
+
+/* 주문 정보 '자세히' 버튼 스타일 */
+#order-info-more {
+    display: flex;
+    margin-left: 7px;
+    justify-content: center;
+    align-items: center;
+    background-color:#eeeeee;
+    border-radius: 10px;
+}
+
+/* 버튼 '자세히 텍스트 스타일 */
+#for-more-button {
+    margin: 4px;
+    font-size: 8px;
+}

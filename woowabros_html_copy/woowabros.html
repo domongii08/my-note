@@ -10,20 +10,20 @@
     <header id="header">
         <div style="display: flex;">
             <back>
-                <ion-icon  id="header-icons" name="arrow-back-outline"></ion-icon>
+                <ion-icon class="header-icons" name="arrow-back-outline"></ion-icon>
             </back>
             <blank style="width: 100%;"></blank>
             <div id="right-header-align">
                 <search id="search-icon">
-                    <ion-icon id="header-icons" name="search-outline"></ion-icon>
+                    <ion-icon class="header-icons" name="search-outline"></ion-icon>
                 </search>
                 <cart id="cart-icon">
-                    <ion-icon id="header-icons" name="cart-outline"></ion-icon>
+                    <ion-icon class="header-icons" name="cart-outline"></ion-icon>
                 </cart>
             </div>
         </div>
     </header>
-    <body id="text-set">
+    <content id="text-set">
         <summary id="summary-area">
             <div id="store-name-area">
                 <name id="store-name-text">우선장네 오늘뭐회</name>
@@ -41,36 +41,75 @@
                 <rate id="rate-text">4.5</rate>
             </div>
             <div id="review-stats-area">
-                <rstats id="stats-text">최근리뷰 158</rstats>
+                <rstats class="stats-text">최근리뷰 158</rstats>
                 <border id="stats-border">|</border>
-                <ostats id="stats-text">최근사장님댓글 2</ostats>
+                <ostats class="stats-text">최근사장님댓글 2</ostats>
             </div>
             <div id="quick-action-area">
-                <action id="action-button-area">
-                    <ion-icon id="action-icon" name="call-outline"></ion-icon>
-                    <text id="action-text">전화</text>
+                <action class="action-button-area">
+                    <ion-icon class="action-icon" name="call-outline"></ion-icon>
+                    <text class="action-text">전화</text>
                 </action>
-                <border id="action-border">|</border>
-                <action id="action-button-area">
-                    <ion-icon id="action-icon" name="heart-outline"></ion-icon>
-                    <text id="action-text">501</text>
+                <border class="action-border">|</border>
+                <action class="action-button-area">
+                    <ion-icon class="action-icon" name="heart-outline"></ion-icon>
+                    <text class="action-text">501</text>
                 </action>
-                <border id="action-border">|</border>
-                <action id="action-button-area">
-                    <ion-icon id="action-icon" name="share-outline"></ion-icon>
-                    <text id="action-text">공유</text>
+                <border class="action-border">|</border>
+                <action class="action-button-area">
+                    <ion-icon class="action-icon" name="share-outline"></ion-icon>
+                    <text class="action-text">공유</text>
                 </action>
-                <border id="action-border">|</border>
-                <action id="action-button-area">
+                <border class="action-border">|</border>
+                <action class="action-button-area">
                     <color id="together-icon">
-                        <ion-icon id="action-icon" name="people-outline"></ion-icon>
+                        <ion-icon class="action-icon" name="people-outline"></ion-icon>
                     </color>
-                    <text id="action-text">함께주문</text>
+                    <text class="action-text">함께주문</text>
                 </action>
             </div>
+            <div id="order-select-area">
+                <div class="order-select-text">
+                    <text id="delivery-order-text">배달주문</text>
+                    <br>
+                    <hr id="selected-order-highlight">
+                </div>
+                <div class="order-select-text">
+                    포장/방문주문
+                    <br>
+                    <hr id="other-order-highlight">
+                </div>
+            </div>
+            <hr id="order-division-highlight">
+            <div id="order-info-area">
+                <label id="order-info-label-area">
+                    <text class="order-info-text">최소주문금액</text>
+                    <br>
+                    <text class="order-info-text">결제방법</text>
+                    <br>
+                    <text class="order-info-text">배달시간</text>
+                    <br>
+                    <text class="order-info-text">배달팁</text>
+                </label>
+                <info>
+                    <text class="order-info-text">22,000원</text>
+                    <br>
+                    <text class="order-info-text">바로결제, 만나서결제</text>
+                    <br>
+                    <div class="order-info-container">
+                        <text class="order-info-text">59~74분</text>
+                        <ion-icon  id="order-info-icon" name="information-circle-outline"></ion-icon>
+                    </div>
+                    <div class="order-info-container">
+                        <text class="order-info-text">2,000원</text>
+                        <div id="order-info-more">
+                            <text id="for-more-button">자세히</text>
+                        </div>
+                    </div>
+                </info>
+            </div>
         </summary>
-        
-    </body>
+    </content>
     <footer>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
