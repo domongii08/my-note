@@ -18,7 +18,6 @@
 /*  헤더 아이콘 공통 스타일 */
 #header-icons {
     font-size: 32px;
-
 }
 
 /* 오른쪽 헤더 정렬 스타일 */
@@ -70,4 +69,26 @@
 /* 평점 텍스트 스타일 */
 #rate-text {
     font-size: 25px;
+}
+
+/* 리뷰 수 에이리어 스타일 */
+#review-stats-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+/* 리뷰통계 텍스트 스타일 */
+#stats-text {
+    text-align: center;
+    font-size: 17px;
+    color: grey;
+}
+
+/* 리뷰통계 중앙선 스타일 */
+#stats-border {
+    margin: 0px 15px;
+    font-size: 20px;
+    color: grey;
 }
