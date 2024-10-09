@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'main-font';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimBadasseugiTTF-L.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 /* 헤더 기본 스타일 */
 #header {
     margin: 10px 10px 10px 10px;
@@ -23,3 +31,17 @@
 #cart-icon {
     margin-left: 10px;
 } 
+
+/* 가게 이름 에이리어 스타일 */
+#store-name-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* 가게 이름 텍스트 스타일 */
+#store-name-text {
+    font-family: 'main-font';
+    font-size: 24px;
+}
