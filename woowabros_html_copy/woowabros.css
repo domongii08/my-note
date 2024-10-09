@@ -5,14 +5,18 @@
     font-style: normal;
 }
 
+/* 기본 글꼴 스타일 */
+#text-set {
+    font-family: 'main-font';
+}
 
 /* 헤더 기본 스타일 */
 #header {
     margin: 10px 10px 10px 10px;
 }
 
-/* 아이콘 공통 스타일 */
-#icons {
+/*  헤더 아이콘 공통 스타일 */
+#header-icons {
     font-size: 32px;
 
 }
@@ -42,6 +46,28 @@
 
 /* 가게 이름 텍스트 스타일 */
 #store-name-text {
-    font-family: 'main-font';
+    font-size: 30px;
+}
+
+/* 가게 별점 에이리어 스타일 */
+#star-rate-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* 별 아이콘 에이리어 스타일 */
+#star-area {
+    margin-right: 10px;
+}
+
+/* 별 아이콘 공통 스타일 */
+#star-icons {
     font-size: 24px;
+}
+
+/* 평점 텍스트 스타일 */
+#rate-text {
+    font-size: 25px;
 }

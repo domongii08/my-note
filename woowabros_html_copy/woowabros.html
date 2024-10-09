@@ -10,22 +10,34 @@
     <header id="header">
         <div style="display: flex;">
             <back>
-                <ion-icon  id="icons" name="arrow-back-outline"></ion-icon>
+                <ion-icon  id="header-icons" name="arrow-back-outline"></ion-icon>
             </back>
             <blank style="width: 100%;"></blank>
             <div id="right-header-align">
                 <search id="search-icon">
-                    <ion-icon id="icons" name="search-outline"></ion-icon>
+                    <ion-icon id="header-icons" name="search-outline"></ion-icon>
                 </search>
                 <cart id="cart-icon">
-                    <ion-icon id="icons" name="cart-outline"></ion-icon>
+                    <ion-icon id="header-icons" name="cart-outline"></ion-icon>
                 </cart>
             </div>
         </div>
     </header>
-    <body>
+    <body id="text-set">
         <div id="store-name-area">
             <name id="store-name-text">우선장네 오늘뭐회</name>
+        </div>
+        <div id="star-rate-area">
+            <star id="star-area">
+                <div id="star-icons">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+            </star>
+            <rate id="rate-text">4.5</rate>
         </div>
     </body>
     <footer>
